@@ -4,12 +4,13 @@ import time
 from datetime import datetime
 import requests
 import asyncio
+import os
 
 url = "http://shibe.online/api/birds?count=1&urls=true&httpsUrls=true"
 
 channel_ids = []
 
-BOT_TOKEN = "MTAwNDg3NTI0MzAzMjE1ODI4OQ.Gygouk.z4st32cmQACYpXHBAXG4wxW3AxF0KL3rlZwLnM"
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 bot = commands.Bot(command_prefix="&", intents=discord.Intents.all())
 
