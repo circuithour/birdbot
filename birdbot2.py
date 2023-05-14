@@ -9,7 +9,7 @@ url = "http://shibe.online/api/birds?count=1&urls=true&httpsUrls=true"
 
 channel_ids = []
 
-BOT_TOKEN = "MTAwNDg3NTI0MzAzMjE1ODI4OQ.Ghx8ow.EnWe7kpOt25FgVCTjG_yeWN5FT_KwHFFX1Fjhs"
+BOT_TOKEN = "MTAwNDg3NTI0MzAzMjE1ODI4OQ.Gygouk.z4st32cmQACYpXHBAXG4wxW3AxF0KL3rlZwLnM"
 
 bot = commands.Bot(command_prefix="&", intents=discord.Intents.all())
 
